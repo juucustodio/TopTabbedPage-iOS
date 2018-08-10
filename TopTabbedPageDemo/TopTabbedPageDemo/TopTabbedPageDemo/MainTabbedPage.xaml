@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<forms:TopTabbedPage             
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TopTabbedPageDemo"
+             x:Class="TopTabbedPageDemo.MainTabbedPage"
+             xmlns:forms="clr-namespace:Naxam.Controls.Forms;assembly=Naxam.TopTabbedPage.Forms"
+             BarBackgroundColor="#2196F3">
+    
+    
+    <local:Page1 Title="PAGE 1"/>
+    <local:Page2 Title="PAGE 2"/>
+    <local:Page3 Title="PAGE 3"/>
+
+
+</forms:TopTabbedPage>
